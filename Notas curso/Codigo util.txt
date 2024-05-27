@@ -1,0 +1,5 @@
+Instalar dependencias de codigo:
+npm i
+
+Iniciar proyecto:
+npm run dev
