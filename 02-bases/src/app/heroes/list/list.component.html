@@ -1,0 +1,12 @@
+<p>list works! Esto es un texto desde list.component.html</p>
+
+<h3>Listado de heroes</h3>
+
+<h3>Heroe Borrado <small class="text-danger">{{deletedHero}}</small></h3>
+<h3>No ha borrado nada.</h3>
+
+<button (click)= "removeLastHero()" class="btn btn-outline-danger">Delete last Hero</button>
+
+<ul class="mt-2 list-group">
+    <li *ngFor="let name of heroNames" class="list-group-item"> {{name}}</li>
+</ul>

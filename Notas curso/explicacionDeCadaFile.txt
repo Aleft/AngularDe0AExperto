@@ -1,0 +1,7 @@
+angular.json:
+    cual es el directorio de salida, el archivo principal donde inicia la app, etc
+
+package.json: 
+    otro archivo del que no se tocan datos frecuentemente, se veran en el curso.
+
+    
