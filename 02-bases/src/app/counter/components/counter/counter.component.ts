@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AppComponent } from '../app.component';
+import { AppComponent } from '../../../app.component';
 
 @Component({
     selector: 'app-counters',        
@@ -13,7 +13,7 @@ import { AppComponent } from '../app.component';
 })
 
 export class CounterComponent {
-    public title: string = 'My first app';
+    public title: string = 'My first app desde counter.component.ts';
     public counter: number = 10;
 
   increaseBy() :void{
