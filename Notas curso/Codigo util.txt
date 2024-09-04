@@ -3,3 +3,5 @@ npm i
 
 Iniciar proyecto:
 npm run dev
+
+npm i uuid // Generador de IDs

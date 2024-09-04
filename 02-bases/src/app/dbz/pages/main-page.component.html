@@ -4,9 +4,9 @@
 <div class="row">
     <div class="col">
         <h4>Listado</h4>
-        <app-dbz-list [characterList]="characters"></app-dbz-list>
+        <app-dbz-list [characterList]="characters" (onDelete)="onDeleteCharacter($event)"></app-dbz-list>
     </div>
     <div class="col">
-        <app-add-character></app-add-character>
+        <app-add-character (onNewCharacter)="onNewCharacter($event)"></app-add-character>
     </div>
 </div>
