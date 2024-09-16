@@ -1,0 +1,21 @@
+<div class="d-flex justify-content-center">
+  <!-- <img src="{{ url }}" alt="card-img-top" class="card-img-top"> -->
+
+  <img 
+  src={{url}} 
+  alt={{alt}}
+  (load) = "onLoad()" 
+  [ngStyle]="{display: hasLoaded ? '' : 'none'}"
+  class="card-img-top animate__animated animate__fadeIn"
+/>
+
+<img 
+  *ngIf="!hasLoaded"
+  src="/loader.svg" 
+  alt="loader"
+  width="35"
+  height="35"
+  class="mt-3"
+/>
+
+</div>
